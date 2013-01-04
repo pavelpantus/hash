@@ -33,7 +33,7 @@ Peculiarities:
 Development and testing has been done using msvc 2010 express edition, using boost 1.51.
 To start app using msvc you must set environment variable BOOST_PATH to your boost dir (for example: C:\Program Files (x86)\boost).
 To measure time intervals boost::chrono has been used.
-
+If some dll is missing(for example msvcp100.dll) you need to install Microsoft Visual C++ 2010 Redistributable Package http://www.microsoft.com/en-us/download/details.aspx?id=5555
 
 ========================================================
 ========================================================
